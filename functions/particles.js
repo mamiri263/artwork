@@ -1,5 +1,3 @@
-// code from: MauritsWilke big credits to them for helping
-
 const random = (min, max) => Math.random() * (max - min) + min;
 const urlParams = new URLSearchParams(window.location.search);
 const settings = {
