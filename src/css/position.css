@@ -1,0 +1,138 @@
+/*centers any element that has container*/
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  z-index: 0;
+  height: 550px;
+}
+
+/* container for holy wall page */
+.containerH {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  z-index: 0;
+}
+
+/* container for pet page */
+.containerPet {
+  margin-top: 10%;
+  margin-left: 10%;
+  height: 1000px;
+}
+
+/* users box in holy-wall */
+.users {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  z-index: 0;
+}
+
+/*container for about me*/
+.containerAB {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-left: 15%;
+  margin-top: 100px;
+  z-index: 0;
+  height: 350px;
+}
+
+/* container for projects page */
+.containerPJ {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  z-index: 0;
+  top: 150px;
+}
+
+/* media queries for project and pet page */
+@media only screen and (max-width: 480px) {
+
+  .containerPJ {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: 0;
+    top: 100px;
+  }
+
+  .containerPet {
+    position: relative;
+    top: 80px;
+  }
+
+  .containerH {
+    display: block;
+    position: relative;
+    top: 100px;
+    margin: 3%;
+  }
+}
+
+/* donation button position */
+.donation {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* src button */
+.sourceCode {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+.sourceCode a {
+  position: relative;
+  bottom: 3px;
+  margin-right: 1px;
+}
+
+/* settings for the spotify button the left corner */
+#spotifyimg {
+  position: fixed;
+  float: left;
+  bottom: 40px;
+  left: 40px;
+}
+
+/* related to the particle background in homepage */
+#canvas1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+
+
+
+/* links inside the gray box */
+.boxHP h2 {
+  display: inline-block;
+  width: 23%;
+  margin-top: 6%;
+}
+
+/*i have written all these comments one by one*/
